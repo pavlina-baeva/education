@@ -1,0 +1,110 @@
+header {
+    width: 100%;
+    border: solid black;
+    background-color: darkseagreen;
+}
+
+.flexcontainer {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo {
+    width: 10vw;
+    padding: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Oswald', serif;
+}
+
+h1 {
+    padding: 15px;
+    margin: 25px;
+}
+
+.menu {
+    font-family: 'Oswald', serif;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin: 10px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+
+h2,
+h3 {
+    font-size: x-large;
+}
+
+.photogallery {
+    display: inline-block;
+    width: 20vw;
+    height: 65vh;
+    padding: 10px;
+}
+
+section {
+    float: left;
+    width: 65vw;
+}
+
+aside {
+    float: right;
+    width: 30vw;
+}
+
+.mininame {
+    font-family: 'Oswald', serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#about {
+    text-align: center;
+}
+
+#ward {
+    float: left;
+}
+
+#list {
+    text-align: left;
+}
+
+#rescuer {
+    float: right;
+    width: 50%;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.address {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.address:hover {
+    text-decoration: underline;
+}
+
+.flexcontainer #address {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100vw;
+    border: solid black;
+    background-color: darkseagreen;
+}
