@@ -1,0 +1,63 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em;
+    font-size: 14px;
+}
+
+.nav__menu {
+    list-style: none;
+    color: #363431;
+}
+
+.nav__item {
+    display: inline;
+    padding: 1em;
+}
+
+.nav__link {
+    color: #363431;
+    text-decoration: none;
+}
+
+.main__table-item {
+    border: solid #4E4D4D;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.5em;
+    padding: 3em;
+}
+
+.footer__nav {
+    color: #363431;
+}
+
+#email {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #F3F3F3;
+    border: none;
+    height: 48px;
+    padding: none;
+}
+
+#footer_btn {
+    background-color: #74B900;
+    color: #FFFF;
+    border: none;
+    height: 48px;
+    width: 104px;
+    padding: none;
+}
+
+#footer__link {
+    color: #828282;
+}
