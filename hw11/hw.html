@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Корзина</h1>
+    <div class="cart_container">
+        <article class="cart__item">
+            <img src="images/conversations_cover.jpg" alt="Обложка Разговоры с друзьями" class="item__img">
+            <div>
+                <h2>Разговоры с друзьями</h2>
+                <p>Автор: Руни С.</p>
+                <p>Издательство: Синдбад</p>
+                <p>Количество: 1</p>
+            </div>
+            <p class="item__price">823</p>
+        </article>
+        <article class="cart__item">
+            <img src="images/beauty_cover.jpg" alt="Обложка Миф о красоте" class="item__img">
+            <div>
+                <h2>Миф о красоте: Стереотипы против женщин</h2>
+                <p>Автор: Вульф Н.</p>
+                <p>Издательство: Альпина</p>
+                <p>Количество: 1</p>
+            </div>
+            <p class="item__price">449</p>
+        </article>
+        <article class="cart__item">
+            <img src="images/coffee_cover.jpg" alt="Обложка Не тот кофе" class="item__img">
+            <div>
+                <h2>Не тот кофе</h2>
+                <p>Автор: Той К.</p>
+                <p>Издательство: АСТ</p>
+                <p>Количество: 1</p>
+            </div>
+            <p class="item__price">513</p>
+        </article>
+        <article class="cart__item">
+            <img src="images/japan_cover.jpg" alt="Обложка Японские мифы" class="item__img">
+            <div>
+                <h2>Японские мифы. От кицунэ и ёкаев до «Звонка» и «Наруто»</h2>
+                <p>Автор: Фридман Д.</p>
+                <p>Издательство: МИФ</p>
+                <p>Количество: 1</p>
+            </div>
+            <p class="item__price">1095</p>
+        </article>
+        <button id="btn" onclick="calcDiscount(); this.onclick=null">Использовать купон на 20%</button>
+        <div class="cart_total">
+            <span class="cart_total_title">Итого:</span>
+            <span class="cart_total_price">0</span>
+            <span>р.</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
