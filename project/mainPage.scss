@@ -1,0 +1,154 @@
+$background_color: rgb(123, 174, 151);
+$bold: 600;
+
+@mixin bodyMargin () {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+@mixin headName () {
+    font-weight: $bold;
+    text-align: center;
+}
+
+@mixin link () {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    h1 {
+        @include headName;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+
+        a {
+            @include link;
+        }
+    }
+
+    .greeting {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include bodyMargin;
+        padding-right: auto;
+        padding-left: 3em;
+
+        img {
+            width: 30vw;
+            height: 35vh;
+            margin: 1em;
+        }
+
+        #slogan {
+            font-size: xx-large;
+            font-weight: $bold;
+            text-align: center;
+            margin-right: 1em;
+        }
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    @include bodyMargin;
+
+    h2 {
+        @include headName;
+    }
+
+    div {
+        text-align: center;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    img {
+        justify-self: center;
+        width: 40vw;
+        margin-top: 2em;
+    }
+}
+
+.beginner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include bodyMargin;
+
+    h2 {
+        @include headName;
+    }
+
+    div {
+        display: inline-flex;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 20vw;
+            padding: 1em;
+            margin: 2em;
+            background-color: $background_color;
+
+            .cardName {
+                font-weight: $bold;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.btn {
+    justify-self: flex-end;
+    font-weight: $bold;
+    width: fit-content;
+    padding: 15px;
+    margin: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: flex-start;
+    background-color: $background_color;
+    padding: 20px;
+    gap: 4em;
+
+    h3 {
+        font-size: xx-large;
+        font-weight: $bold;
+    }
+
+    address {
+        font-size: small;
+        font-style: normal;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        font-weight: $bold;
+
+        a {
+            @include link;
+        }
+    }
+}

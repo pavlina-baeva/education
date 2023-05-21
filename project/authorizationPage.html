@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дом йоги</title>
+    <link rel="stylesheet" href="css/authorizationPage.css">
+    <link href="normalize1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Дом йоги</h1>
+        <nav>
+            <a href="" class="nav__link">О нашем доме</a>
+            <a href="" class="nav__link">Для начинающих</a>
+            <a href="" class="nav__link">Новости и события</a>
+            <a href="" class="nav__link">Расписание</a>
+            <a href="" class="nav__link">Цены</a>
+            <a href="" class="nav__link">Контакты</a>
+            <a href="" class="nav__link">Обратная связь</a>
+            <a href="authorizationPage.html" class="nav__link">Личный кабинет</a>
+        </nav>
+    </header>
+    <section class="authorization">
+        <h2>Личный кабинет</h2>
+        <div>Использование личного кабинета сделает просмотр расписания и запись на занятия проще, поможет
+            отслеживать активность по абонементу и историю посещений, а также позволит приобретать абонементы
+            онлайн.
+        </div>
+        <div class="authorization__field">
+            <h2>Авторизация</h2>
+            <form id="authorization__info" name="authorization__form" novalidate>
+                <div class="inputBox">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="input" value="">
+                </div>
+                <div class="inputBox">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" class="input" value="">
+                </div>
+            </form>
+            <button class="btn" onclick="checkAuthorization()">Войти</button>
+            <div><a href="registrationPage.html">Я здесь впервые</a></div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <h3>Дом йоги</h3>
+            <address>ООО "Дом йоги"<br>
+                г. Минск, Республика Беларусь<br>
+                230925, ул. Тюльпанова 16</address>
+        </div>
+        <nav>
+            <a href="" class="nav__link">О нашем доме</a>
+            <a href="" class="nav__link">Для начинающих</a>
+            <a href="" class="nav__link">Новости и события</a>
+            <a href="" class="nav__link">Расписание</a>
+            <a href="" class="nav__link">Цены</a>
+            <a href="" class="nav__link">Контакты</a>
+            <a href="" class="nav__link">Обратная связь</a>
+            <a href="" class="nav__link">Личный кабинет</a>
+            <nav>
+    </footer>
+    <script src="project.js"></script>
+</body>
+
+</html>

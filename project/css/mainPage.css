@@ -1,0 +1,127 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+header h1 {
+  font-weight: 600;
+  text-align: center;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+header nav a {
+  color: black;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header .greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-right: auto;
+  padding-left: 3em;
+}
+header .greeting img {
+  width: 30vw;
+  height: 35vh;
+  margin: 1em;
+}
+header .greeting #slogan {
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: center;
+  margin-right: 1em;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.about h2 {
+  font-weight: 600;
+  text-align: center;
+}
+.about div {
+  text-align: center;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.about img {
+  justify-self: center;
+  width: 40vw;
+  margin-top: 2em;
+}
+
+.beginner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.beginner h2 {
+  font-weight: 600;
+  text-align: center;
+}
+.beginner div {
+  display: inline-flex;
+}
+.beginner div .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  padding: 1em;
+  margin: 2em;
+  background-color: rgb(123, 174, 151);
+}
+.beginner div .card .cardName {
+  font-weight: 600;
+}
+.beginner div .card p {
+  text-align: center;
+}
+
+.btn {
+  justify-self: flex-end;
+  font-weight: 600;
+  width: fit-content;
+  padding: 15px;
+  margin: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: flex-start;
+  background-color: rgb(123, 174, 151);
+  padding: 20px;
+  gap: 4em;
+}
+footer h3 {
+  font-size: xx-large;
+  font-weight: 600;
+}
+footer address {
+  font-size: small;
+  font-style: normal;
+}
+footer nav {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+footer nav a {
+  color: black;
+  text-decoration: none;
+}
+footer nav a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=mainPage.css.map */

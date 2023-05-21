@@ -1,0 +1,57 @@
+@import "mainPage.css";
+
+
+.authorization {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3em;
+
+    h2,
+    div {
+        text-align: center;
+    }
+
+    .authorization__field {
+        width: 60vw;
+        margin: 4em;
+        padding: 5em;
+        box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+
+        #authorization__info {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 1em;
+
+            .inputBox {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                .input {
+                    padding: 10px;
+                }
+
+                #email,
+                #password,
+                #passwordRepeat {
+                    width: 20vw;
+                }
+            }
+
+            .permission {
+                display: inline;
+            }
+        }
+    }
+}
+
+.error {
+    border: solid 2px red;
+}
+
+.errorMessage {
+    font-size: small;
+    color: red;
+}

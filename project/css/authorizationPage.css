@@ -1,0 +1,48 @@
+@import "mainPage.css";
+.authorization {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 3em;
+}
+.authorization h2,
+.authorization div {
+  text-align: center;
+}
+.authorization .authorization__field {
+  width: 60vw;
+  margin: 4em;
+  padding: 5em;
+  box-shadow: 0 0 10px 5px rgb(221, 221, 221);
+}
+.authorization .authorization__field #authorization__info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1em;
+}
+.authorization .authorization__field #authorization__info .inputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.authorization .authorization__field #authorization__info .inputBox .input {
+  padding: 10px;
+}
+.authorization .authorization__field #authorization__info .inputBox #email,
+.authorization .authorization__field #authorization__info .inputBox #password,
+.authorization .authorization__field #authorization__info .inputBox #passwordRepeat {
+  width: 20vw;
+}
+.authorization .authorization__field #authorization__info .permission {
+  display: inline;
+}
+
+.error {
+  border: solid 2px red;
+}
+
+.errorMessage {
+  font-size: small;
+  color: red;
+}/*# sourceMappingURL=authorizationPage.css.map */
